@@ -18,6 +18,10 @@ img {
   width: 100%;
 }
 
+h4 {
+    margin: 0;
+}
+
 .main-header {
   height: 100vh;
   display: flex;
@@ -94,6 +98,39 @@ img {
   justify-content: space-between;
 }
 
+.contact {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: #fffcf2;
+  margin-bottom: 2rem;
+}
+
+.contact h2 {
+    margin: auto;
+    padding: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.contact-form form {
+    width: 100%;
+    padding:1rem;
+}
+.contact-form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+#contact-message {
+    justify-content: center;
+}
 @media (max-with: 700px) {
   .card {
     display: block;
