@@ -101,6 +101,7 @@ h4 {
   opacity: 0.8;
   background: #000;
   color: #fff;
+  transition: ease-in 0.2s;
 }
 
 .links {
@@ -157,7 +158,7 @@ h4 {
   margin-bottom: 0.7rem;
 }
 #contact-message {
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 2rem;
 }
 @media (max-with: 700px) {
