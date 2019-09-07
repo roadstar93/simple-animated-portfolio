@@ -2,11 +2,14 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Merriweather", serif;
   background: #e6ecf4;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -19,7 +22,7 @@ img {
 }
 
 h4 {
-    margin: 0;
+  margin: 0;
 }
 
 .main-header {
@@ -29,6 +32,10 @@ h4 {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  background-image: url(./img/background1.jpg);
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
 .main-header h1 {
@@ -81,8 +88,10 @@ h4 {
 
 .button {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  opacity: 0.8;
   padding: 0.8rem 1.8rem;
   margin-top: 6rem;
   cursor: pointer;
@@ -90,6 +99,8 @@ h4 {
 
 .button:hover {
   opacity: 0.8;
+  background: #000;
+  color: #fff;
 }
 
 .links {
@@ -108,8 +119,8 @@ h4 {
 }
 
 .contact h2 {
-    margin: auto;
-    padding: 1rem;
+  margin: auto;
+  padding: 1rem;
 }
 
 .contact-form {
@@ -120,8 +131,8 @@ h4 {
 }
 
 .contact-form form {
-    width: 100%;
-    padding:1rem;
+  width: 100%;
+  padding: 1rem;
 }
 .contact-form div {
   display: flex;
@@ -129,7 +140,7 @@ h4 {
   margin-bottom: 0.7rem;
 }
 #contact-message {
-    justify-content: center;
+  justify-content: center;
 }
 @media (max-with: 700px) {
   .card {
