@@ -63,7 +63,7 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  background: #fffcf2;
+  background: #fdfdfd;
   margin-bottom: 2rem;
 }
 
@@ -115,7 +115,7 @@ h4 {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background: #fffcf2;
+  background: #fdfdfd;
   margin-bottom: 2rem;
 }
 
